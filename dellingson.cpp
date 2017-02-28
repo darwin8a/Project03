@@ -1,4 +1,5 @@
 #include "group01.h"
+#include <iostream>
 
 using namespace std;
 
@@ -12,6 +13,7 @@ Hero dellingson(Hero hero){
       case 1:
         cout << "There's a cave nearby. You hide in it. The rain starts to pour.\n";
         cout << "Your hunger grows.\n";
+        hero.hunger--;
         cout << "Hunger: " << hero.hunger << endl;
         break;
       case 2:
