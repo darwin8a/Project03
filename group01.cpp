@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-  Hero h;
+  Hero h = {10, 10};
   h = dellingson(h);
   return 0;
 }

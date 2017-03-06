@@ -1,8 +1,10 @@
 #ifndef GROUP01_H
 #define GROUP01_H
+//Define hero struture
 struct Hero{
-  int health=10;
-  int hunger=10;
+  int health;
+  int hunger;
 };
-Hero dellingson(Hero);
+//Blueprint Dan's function
+Hero dellingson(Hero hero);
 #endif
