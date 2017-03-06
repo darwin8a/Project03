@@ -57,7 +57,7 @@ Hero dellingson(Hero hero){
     firebuilt = true;
   }
   else {
-    cout << "\nYou sit down next to the fire, and \nthink about what you'll do next.\n"; 
+    cout << "\nYou sit down next to the fire, and think about what you'll do next.\n"; 
   }
   return hero;
 }
