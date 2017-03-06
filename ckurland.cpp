@@ -1,3 +1,4 @@
+
 #include "group10.h"
 
 using namespace std;
@@ -24,6 +25,14 @@ cout << "As you try and impale the bear, the bear swipes down and snaps your spe
 bear.health-=4;
 cout << "After the blow, you run out of the cave in fear." << endl;
 cout << "Your Health: " << bear.health << endl;
+  break;
+  case 2:
+  cout << "You pick up the sharp rock and charge the bear." << endl;
+  cout << "After dodging most of the bear's swipes, you make it to striking range and hit the bear repeatedly with the rock." << endl;
+  cout << "After a brief fight, the bear collapses in defeat afte rbeig slain by you." << endl;
+  cout << "With the bear just lying there, you decide to skin it and use the fur as a jacket." << endl;
+  bear.fur = true;
+  
 }
 if (bear_choice == 2)
 {
