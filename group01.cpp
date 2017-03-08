@@ -12,5 +12,6 @@ int main() {
   string stats = "";
 
   h = dellingson(h);
+  h = ckurland(h);
   return 0;
 }
