@@ -7,4 +7,5 @@ struct Hero{
 };
 //Blueprint Dan's function
 Hero dellingson(Hero hero);
+Hero ckurland(Hero bear);
 #endif
