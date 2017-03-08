@@ -41,6 +41,14 @@ int main() {
     }
     h.health = file.getline();
   }
+  else {
+    file << "<health>" << endl;
+    file << h.health << endl;
+    file << "<hunger>" << endl;
+    file << h.hunger << endl;
+    file << "<checkpoint>" << endl;
+    file << "none" << endl;
+  }
   h = dellingson(h);
   return 0;
 }
