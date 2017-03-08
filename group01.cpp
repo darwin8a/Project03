@@ -37,9 +37,9 @@ int main() {
   string stats = "";
   if (file_exists){
     while(stats != "<health>"){
-      stats = file.getline();
+      file.getline(stats);
     }
-    h.health = file.getline();
+    file.getline(h.health);
   }
   else {
     file << "<health>" << endl;
