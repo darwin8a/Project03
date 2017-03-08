@@ -44,7 +44,7 @@ bear.health-=4;
 cout << "Your Health: " << bear.health << endl;
 }
 cout << "Once leaving the cave, you realize it is getting dark and you don't have a place to sleep." << endl;
-cout << "Still scared taht the bear might come after you, you have to decide whether to try and make a fire or just climb into a tree and sleep there." << endl;
+cout << "Still scared that the bear might come after you, you have to decide whether to try and make a fire or just climb into a tree and sleep there." << endl;
   cout<< "Would you like to 1) Try and make a fire or 2) Climb into the tree?" << endl;
   int shelter;
   cin >> shelter;
