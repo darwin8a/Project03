@@ -7,5 +7,8 @@ dellingson.o: dellingson.cpp group01.h
 group01.o: group01.cpp group01.h
 	g++ -std=c++11 -c group01.cpp
 
+ckurland.o: ckurland.cpp group01.h
+	g++ -std=c++11 -c ckurland.cpp
+
 clean:
 	rm *.o
