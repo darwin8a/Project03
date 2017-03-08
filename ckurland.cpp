@@ -55,5 +55,5 @@ cout << "Still scared taht the bear might come after you, you have to decide whe
   }
 cout << "Once making the climb into the tree, you find a nice place to rest," << endl;
   cout << "and with the warmth of the bear skin, you fall asleep, hoping the bear stays away." << endl;
-
+return bear;
 }
