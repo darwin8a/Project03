@@ -31,4 +31,40 @@ Hero cluibel(Hero hero){
     }
   }
   cout << "The helicopter is now in sight. You are almost there. \n";
-
+cout << "1) Break into a sprint\n2) Conserve energy, but risk not making it in time";
+int sprintoption = 0;
+bool sprint = false;
+cin >> sprintoption;
+switch(darkoption){
+  case 1:
+    sprint = true;
+    cout << "You sprint with the little life left in you, \n";
+    cout << "but you make it to the helicopter and are saved.\n";
+  case 2:
+    cout << "You continue at your normal pace, but it is getting \n";
+    cout << "dark quickly. You better hurry! \n";
+    cout << "Should you run? (y/n)";
+    char response = 'q';
+    cin >> response;
+    if (response == 'y'){
+      cout << "It takes all your strenght, but you made it! \n";
+      cout << "You are saved! \n";
+    }
+    else {
+    }
+}
+if (sprint == false){
+  cout << "The sun is completely gone. Perhaps trying to run will ensure your safety. \n";
+  cout << "1) Break into sprint\n";
+  int q = 0;
+  cin >> q;
+  cout << "You run until you can't anymore. Luckily, you have run\n";
+  cout << "far enough and the helicopter can see you. \n";
+  sprint = true;
+  cout << "You are saved. \n";
+}
+else {
+  cout << "\n You are saved.\n";
+}
+return hero;
+}
