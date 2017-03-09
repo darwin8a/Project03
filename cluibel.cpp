@@ -9,8 +9,8 @@ Hero cluibel(Hero hero){
   cout << "You come upon a small path, could this be a shortcut?./n";
   cout << "1) Stay on current path\n2) Change to new path" << endl;
   int pathoption=0;
-  bool aa = false;
-  while(true){
+  //bool aa = false;
+  //while(true){
     cin >> pathoption;
     switch(pathoption){
       case 1:
@@ -22,20 +22,20 @@ Hero cluibel(Hero hero){
       case 2:
         cout << "You start down the new path. \n";
         cout << "This path seems much easier and you can hear a stream just a few yards away." << endl;
-        if (!aa){
+   //     if (!aa){
           cout << "You run and gulp some stream water to rehydrate." << endl;
-          aa = true;
+    //      aa = false;//change true to false
     hero.health++;
     cout << "Health: " << hero.health << endl;
-        }
+     //   }
     }
-  }
+ // }
   cout << "The helicopter is now in sight. You are almost there. \n";
 cout << "1) Break into a sprint\n2) Conserve energy, but risk not making it in time";
-int sprintoption = 0;
+int sprintoption; //= 0;
 bool sprint = false;
 cin >> sprintoption;
-switch(darkoption){
+switch(sprintoption){ // change drk option to sprint option
   case 1:
     sprint = true;
     cout << "You sprint with the little life left in you, \n";
@@ -47,7 +47,7 @@ switch(darkoption){
     char response = 'q';
     cin >> response;
     if (response == 'y'){
-      cout << "It takes all your strenght, but you made it! \n";
+      cout << "It takes all your strength, but you made it! \n";
       cout << "You are saved! \n";
     }
     else {
