@@ -1,5 +1,5 @@
 adventure: dellingson.o group01.o ckurland.o cluibel.o
-	g++ -std=c++11 *.o -o adventure -fmax-errors=1
+	g++ -std=c++11 *.o -o adventure
 
 dellingson.o: dellingson.cpp group01.h
 	g++ -std=c++11 -c dellingson.cpp
