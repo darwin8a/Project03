@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
   cout << "Adventure Game\n";
-  cout << "By Dan Ellingson, Darwin Ruiz,\nConnor Kurland and Colleen\n";
+  cout << "By Dan Ellingson, Darwin Ochoa,\nConnor Kurland and Colleen Luibel\n";
 
   Hero h = {10, 10, false};
   string stats = "";
