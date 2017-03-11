@@ -6,6 +6,9 @@ dellingson.o: dellingson.cpp group01.h
 
 ckurland.o: ckurland.cpp group01.h
 	g++ -std=c++11 -c ckurland.cpp
+	
+dochoa.o: dochoa.cpp group01.h
+	g++ -std=c++11 -c dochoa.cpp
 
 cluibel.o: cluibel.cpp group01.h
 	g++ -std=c++11 -c cluibel.cpp
