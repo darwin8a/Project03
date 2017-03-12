@@ -66,5 +66,6 @@ if (sprint == false){
 else {
   cout << "\n You are saved.\n";
 }
+  cout << "Health: " << hero.health << endl;
 return hero;
 }
