@@ -9,6 +9,6 @@ struct Hero{
 //Blueprint Dan's function
 Hero dellingson(Hero hero);
 Hero ckurland(Hero bear);
-
+Hero dochoa(Hero hero);
 Hero cluibel(Hero hero);
 #endif
