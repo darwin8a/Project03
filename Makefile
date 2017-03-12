@@ -1,4 +1,4 @@
-adventure: dellingson.o group01.o ckurland.o cluibel.o
+adventure: dellingson.o group01.o ckurland.o dochoa.o cluibel.o
 	g++ -std=c++11 *.o -o adventure
 
 dellingson.o: dellingson.cpp group01.h
