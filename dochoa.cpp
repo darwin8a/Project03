@@ -8,7 +8,7 @@ Hero dochoa(Hero hero) {
     cout<<"Quickly, with a fast response you notice a snake, looking right back at you."<<endl;
     cout<<"With adrenaline pumping through your body, and a desire to not die today/n";
     cout<<"you find yourself with two options: 1)Kill the snake or 2) fearlessly grab\n";
-    cout<<"the snake with your bear arms and throw him off the tree?"<<endl;
+    cout<<"the snake with your bare arms and throw him off the tree?"<<endl;
 
     int hero_choice;
     cin >> hero_choice;
